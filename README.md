@@ -29,3 +29,4 @@ python main.py --mode test --dataset AFHQ --c_dim 7 --log_dir superstargan/afhq/
 This research was supported by the Chung-Ang University Graduate Research Scholarship in 2022 as well as the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2021R1F1A1050977).
 
 The source code is based on the Original [StarGAN](https://github.com/yunjey/stargan) source code
+ 
