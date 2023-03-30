@@ -10,7 +10,6 @@ To traing SuperstarGAN on AFHQ,  you must sort the dataset directory as follows:
 
 ## Training/Testing networks
 To train SuperstarGAN on AFHQ, you must sort the dataset directory as [AFHQ](https://github.com/KangHyeokKo/SuperstarGAN/blob/main/jpg/AFHQ.md).
-
 To train SuperstarGAN on CelebA or AFHQ, run the training script below. 
 
 ```bash
