@@ -3,13 +3,10 @@
 
 <p align="center"><img width="100%" src="jpg/figure1.jpg" /></p>
 
-## Preprocessing dataset
-To traing SuperstarGAN on AFHQ,  you must sort the dataset directory as follows:
-'''bash
-
 
 ## Training/Testing networks
 To train SuperstarGAN on AFHQ, you must sort the dataset directory as [AFHQ](https://github.com/KangHyeokKo/SuperstarGAN/blob/main/jpg/AFHQ.md).
+
 To train SuperstarGAN on CelebA or AFHQ, run the training script below. 
 
 ```bash
@@ -30,3 +27,5 @@ python main.py --mode test --dataset AFHQ --c_dim 7 --log_dir superstargan/afhq/
 
 ## Acknowledgements
 This research was supported by the Chung-Ang University Graduate Research Scholarship in 2022 as well as the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2021R1F1A1050977).
+
+The source code is based on the Original [StarGAN](https://github.com/yunjey/stargan) source code
