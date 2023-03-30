@@ -104,10 +104,10 @@ if __name__ == '__main__':
     parser.add_argument('--attr_path', type=str, default='data/celeba/list_attr_celeba.txt')
     parser.add_argument('--afhq_image_dir', type=str, default='data/afhq/train')
     parser.add_argument('--afhq_test_dir', type=str, default='data/afhq/test')
-    parser.add_argument('--log_dir', type=str, default='superstarGAN/afhq/logs')
-    parser.add_argument('--model_save_dir', type=str, default='superstarGAN/afhq/models')
-    parser.add_argument('--sample_dir', type=str, default='superstarGAN/afhq/samples')
-    parser.add_argument('--result_dir', type=str, default='superstarGAN/afhq/results')
+    parser.add_argument('--log_dir', type=str, default='superstarGAN/logs')
+    parser.add_argument('--model_save_dir', type=str, default='superstarGAN/models')
+    parser.add_argument('--sample_dir', type=str, default='superstarGAN/samples')
+    parser.add_argument('--result_dir', type=str, default='superstarGAN/results')
     
     # Step size.
     parser.add_argument('--log_step', type=int, default=10)
